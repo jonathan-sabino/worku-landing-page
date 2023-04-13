@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+}
+
+:root {
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #0f0922;
+    --tertiary-background-color: #000000;
+    --quaternary-background-color: #F2F0F0;
+    --button-color: #E0FF00;
+
+    --primary-font-family: 'Inter', sans-serif;
+    --secondary-font-family: 'Krona One', sans-serif;
+
+}
+
+.header-container {
+    z-index: 1;
+    background-color: var(--secondary-background-color);
+    position: absolute;
+    width: 1440px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+}
+
+.worku-logo {
+    position: absolute;
+    width: 92px;
+    height: 20px;
+    left: 120px;
+    top: 27px;
+
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    text-transform: capitalize;
+    color: var(--primary-background-color);
+}
+
+.btn-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 69px;
+    gap: 10px;
+
+    position: absolute;
+    width: 141px;
+    height: 44px;
+    left: 1179px;
+    top: 18px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.login {
+    width: 53px;
+    height: 20px;
+
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+    text-transform: capitalize;
+    color: var(--tertiary-background-color);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-menu {
+    position: absolute;
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    text-transform: capitalize;
+    color: var(--primary-background-color);
+}
+
+.nav-menu .features {
+    position: absolute;
+    width: 84px;
+    height: 20px;
+    left: 812px;
+    top: 30px;
+}
+
+.nav-menu .contact {
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    left: 946px;
+    top: 30px;
+}
+
+.nav-menu .help {
+    position: absolute;
+    width: 44px;
+    height: 20px;
+    left: 1073px;
+    top: 30px;
+    }
+
+.first-section {
+    background-color: var(--secondary-background-color);
+    position: absolute;
+    width: 1579px;
+    height: 1074px;
+    left: 0px;
+    top: 0px;
+}
+
+.btn-learn-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 47px;
+    gap: 10px;
+
+    position: absolute;
+    width: 183px;
+    height: 61px;
+    left: 120px;
+    top: 590px;
+
+    background: var(--button-color);
+    border-radius: 6px;
+}
+
+.learn-more {
+    width: 109px;
+    height: 25px;
+
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    
+    text-transform: capitalize;
+    color: var(--tertiary-background-color);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero-image {
+    position: absolute;
+    width: auto;
+    height: 1052px;
+    left: 527px;
+    top: 22px;
+}
+
+.hero-heading {
+    position: absolute;
+    width: 744px;
+    height: 225px;
+    left: 120px;
+    top: 221px;
+
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+
+    text-transform: capitalize;
+    color: var(--primary-background-color);
+}
+
+.hero-paragraph {
+    position: absolute;
+    width: 489px;
+    height: 82px;
+    left: 119px;
+    top: 478px;
+ 
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+  
+    color: var(--primary-background-color);
+}
+
+.second-section {
+    position: absolute;
+    width: 1199px;
+    height: 1379px;
+    left: 121px;
+    top: 1040px;
+}
+
+.btn-want-try {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 47px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 226px;
+    height: 61px;
+    left: 607px;
+    top: 2358px;
+    
+    background: var(--button-color);
+    border-radius: 6px;
+}
+
+.want-try {
+    width: 132px;
+    height: 25px;
+    
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    
+    text-transform: capitalize; 
+    color: var(--tertiary-background-color);
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card3 {
+    transition: 0.5s;
+
+    position: absolute;
+    width: 387px;
+    height: 318px;
+    left: 933px;
+    top: 1990px;
+
+    background: var(--quaternary-background-color);
+    border-radius: 5px;
+
+    color: var(--tertiary-background-color);
+}
+
+.container-tracking-icon {
+    position: absolute;
+    background-color: var(--tertiary-background-color);
+    border-radius: 35px / 35px;
+    width: 70px;
+    height: 70px;
+    left: 37px;
+    top: 32px;
+}
+
+.tracking-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 20px;  
+}
+
+.card3-tittle {
+    position: absolute;
+    width: 249px;
+    height: 25px;
+    left: 36px;
+    top: 127px;
+    
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+}
+
+.card3-text {
+    position: absolute;
+    width: 332px;
+    height: 115px;
+    left: 37px;
+    top: 165px;
+    
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;    
+}
+
+/* teste de algo que eu gostaria de fazer 
+.card3:hover,
+.container-tracking-icon:hover,
+.tracking-icon:hover {
+    transition: 0.5s;
+
+    background-color: var(--tertiary-background-color);
+    color: var(--primary-background-color);
+} */
+
+
